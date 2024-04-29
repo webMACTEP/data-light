@@ -1,0 +1,122 @@
+@charset "UTF-8";
+/*Обнуление*/
+@import url("https://fonts.googleapis.com/css2?family=Unbounded:wght@200..900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+:focus, :active {
+  outline: none;
+}
+
+a:focus, a:active {
+  outline: none;
+}
+
+nav, footer, header, aside {
+  display: block;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a, a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+/*--------------------*/
+body {
+  font-family: "Unbounded", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  background: #172224;
+}
+
+.container {
+  max-width: 1472px;
+  margin: 0px auto;
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header {
+  padding: 20px 0px;
+}
+.header .butt {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  padding: 12px 24px;
+  box-sizing: border-box;
+  border: 2px solid rgb(208, 252, 27);
+  border-radius: 30px;
+  background: linear-gradient(87.78deg, rgb(74, 255, 0) -105.547%, rgb(227, 251, 30) 99.839%);
+}
+.header .connect {
+  display: flex;
+  gap: 32px;
+  align-items: center;
+}
+.header nav ul {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+}
+.header nav a {
+  font-size: 16px;
+  color: #fff;
+}/*# sourceMappingURL=style.css.map */

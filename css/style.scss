@@ -1,0 +1,61 @@
+@import "_nullstyle";
+// @font-face {
+//    font-family: "Golos";
+//    src:
+//       url("../font/Golos-Text_Regular.woff2") format("woff2"),
+//       url("../font/Golos-Text_Regular.woff") format("woff");
+//    src: local("Golos Text Regular"), local("Golos-Text_Regular");
+//    font-weight: 400;
+//    font-style: normal;
+// }
+
+@import url("https://fonts.googleapis.com/css2?family=Unbounded:wght@200..900&display=swap");
+
+body {
+   font-family: "Unbounded", sans-serif;
+   font-optical-sizing: auto;
+   font-weight: 400;
+   font-style: normal;
+   background: #172224;
+}
+.container {
+   max-width: 1472px;
+   margin: 0px auto;
+}
+.wrapper {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+.header {
+   .butt {
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      gap: 40px;
+      padding: 12px 24px;
+      box-sizing: border-box;
+      border: 2px solid rgb(208, 252, 27);
+      border-radius: 30px;
+
+      background: linear-gradient(87.78deg, rgb(74, 255, 0) -105.547%, rgb(227, 251, 30) 99.839%);
+   }
+   .connect {
+      display: flex;
+      gap: 32px;
+      align-items: center;
+   }
+   nav {
+      ul {
+         display: flex;
+         gap: 40px;
+         align-items: center;
+      }
+      a {
+         font-size: 16px;
+         color: #fff;
+      }
+   }
+   padding: 20px 0px;
+}
