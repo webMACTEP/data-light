@@ -74,7 +74,6 @@ h1, h2, h3, h4, h5, h6 {
 
 /*--------------------*/
 body {
-  overflow: hidden;
   font-family: "Unbounded", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
@@ -128,6 +127,14 @@ body {
 .intro {
   padding: 90px 0px 0px 0px;
 }
+.intro .brands {
+  margin: 150px 0px 0px 0px;
+}
+.intro .brands img {
+  max-width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
 .intro ul {
   display: flex;
   gap: 20px;
@@ -172,6 +179,14 @@ body {
 .intro .butt {
   padding: 12px 55px;
 }
+.intro .inrto-img {
+  width: 80%;
+  overflow: hidden;
+  position: absolute;
+  top: -380px;
+  right: 0px;
+  z-index: -1;
+}
 
 .border-grad {
   --b: 2px; /* border width*/
@@ -195,11 +210,4 @@ body {
   mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
   -webkit-mask-composite: xor;
   mask-composite: exclude;
-}
-
-.inrto-img {
-  position: absolute;
-  top: -380px;
-  right: -380px;
-  z-index: -1;
 }/*# sourceMappingURL=style.css.map */
