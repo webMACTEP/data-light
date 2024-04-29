@@ -74,6 +74,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /*--------------------*/
 body {
+  overflow: hidden;
   font-family: "Unbounded", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
@@ -92,11 +93,10 @@ body {
   justify-content: space-between;
 }
 
-.header {
-  padding: 20px 0px;
-}
-.header .butt {
+.butt {
   cursor: pointer;
+  width: -moz-fit-content;
+  width: fit-content;
   display: flex;
   align-items: center;
   gap: 40px;
@@ -105,6 +105,10 @@ body {
   border: 2px solid rgb(208, 252, 27);
   border-radius: 30px;
   background: linear-gradient(87.78deg, rgb(74, 255, 0) -105.547%, rgb(227, 251, 30) 99.839%);
+}
+
+.header {
+  padding: 20px 0px;
 }
 .header .connect {
   display: flex;
@@ -119,4 +123,83 @@ body {
 .header nav a {
   font-size: 16px;
   color: #fff;
+}
+
+.intro {
+  padding: 90px 0px 0px 0px;
+}
+.intro ul {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin: 0px 0px 66px 0px;
+}
+.intro ul li {
+  padding: 12px 24px 12px 24px;
+  color: rgb(255, 255, 255);
+  font-size: 14px;
+  font-weight: 250;
+  line-height: 120%;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.intro .info {
+  max-width: 590px;
+}
+.intro h2 {
+  margin: 0px 0px 48px 0px;
+  color: rgb(255, 255, 255);
+  font-size: 36px;
+  font-weight: 300;
+  line-height: 120%;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.intro h1 {
+  margin: 0px 0px 10px 0px;
+  background: linear-gradient(90deg, rgb(212, 255, 0), rgb(39, 247, 248));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  font-size: 76px;
+  font-weight: 800;
+  line-height: 120%;
+  letter-spacing: 0%;
+  text-align: left;
+  text-transform: uppercase;
+}
+.intro .butt {
+  padding: 12px 55px;
+}
+
+.border-grad {
+  --b: 2px; /* border width*/
+  --r: 30px; /* the radius */
+  color: #313149;
+  padding: calc(var(--b) + 2px);
+  display: inline-block;
+  position: relative;
+  z-index: 0;
+}
+
+.border-grad:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  inset: 0;
+  padding: var(--b);
+  border-radius: var(--r);
+  background: var(--c, linear-gradient(to right, rgb(74, 255, 0), rgb(227, 251, 30)));
+  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+}
+
+.inrto-img {
+  position: absolute;
+  top: -380px;
+  right: -380px;
+  z-index: -1;
 }/*# sourceMappingURL=style.css.map */
