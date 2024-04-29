@@ -1,6 +1,7 @@
 @charset "UTF-8";
 /*Обнуление*/
 @import url("https://fonts.googleapis.com/css2?family=Unbounded:wght@200..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Unbounded:wght@200..900&display=swap");
 * {
   padding: 0;
   margin: 0;
@@ -210,4 +211,107 @@ body {
   mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
   -webkit-mask-composite: xor;
   mask-composite: exclude;
+}
+
+.services {
+  margin: 100px 0px 0px 0px;
+}
+.services .button {
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0;
+  text-align: center;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 85px auto 0px auto;
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  padding: 20px 70px;
+}
+.services .item05 {
+  display: flex;
+  align-items: center;
+  gap: 120px;
+  padding: 35px 30px;
+}
+.services .item05 h4 {
+  margin: 50px 0px 0px 0px;
+  display: block;
+  color: rgb(212, 255, 0);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 120%;
+  letter-spacing: 0;
+  text-align: left;
+}
+.services .item05 h3,
+.services .item05 p {
+  color: #fff;
+}
+.services .item04 {
+  display: flex;
+  align-items: center;
+  gap: 100px;
+  border-radius: 32px;
+  padding: 35px 30px;
+  background: linear-gradient(107.28deg, rgb(212, 255, 0) 3.464%, rgb(39, 247, 248) 183.62%), rgb(222, 252, 30);
+}
+.services .item03 {
+  padding: 35px 30px;
+  border-radius: 32px;
+  background: linear-gradient(109.22deg, rgb(212, 255, 0) -57.915%, rgb(39, 247, 248) 69.24%), rgb(222, 252, 30);
+}
+.services .item02 {
+  display: flex;
+  padding: 35px 30px;
+  gap: 110px;
+  align-items: center;
+}
+.services .item02 h3,
+.services .item02 p {
+  color: #fff;
+}
+.services .item01 {
+  padding: 35px 30px;
+  border-radius: 32px;
+  background: linear-gradient(101.99deg, rgb(212, 255, 0) 8.547%, rgb(39, 247, 248) 291.016%), rgb(222, 252, 30);
+}
+.services .item01 p {
+  color: rgb(61, 58, 58);
+}
+.services .row {
+  margin: 16px 0px 0px 0px;
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+}
+.services p {
+  margin: 22px 0px 0px 0px;
+  font-family: "Mulish", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 200;
+  line-height: 120%;
+  letter-spacing: 0;
+  text-align: left;
+}
+.services h3 {
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 120%;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.services h2 {
+  margin: 0px 0px 34px 0px;
+  color: rgb(255, 255, 255);
+  font-size: 48px;
+  font-weight: 800;
+  line-height: 120%;
+  letter-spacing: 0%;
+  text-align: left;
 }/*# sourceMappingURL=style.css.map */
