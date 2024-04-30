@@ -321,6 +321,7 @@ body {
   margin: 210px 0px 0px 0px;
 }
 .advantages .light {
+  z-index: -1;
   width: 60%;
   position: absolute;
   left: 0;
@@ -387,6 +388,12 @@ body {
 
 .etaps {
   margin: 200px 0px 0px 0px;
+}
+.etaps .schema {
+  margin: 100px 0px 0px 0px;
+}
+.etaps .schema svg {
+  max-width: 100%;
 }
 .etaps h2 {
   margin: 0px 0px 34px 0px;

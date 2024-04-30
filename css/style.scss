@@ -257,11 +257,11 @@ body {
 }
 .advantages {
    .light {
+      z-index: -1;
       img {
          position: absolute;
          top: -600px;
          right: 0;
-         //max-width: 100%;
       }
       width: 60%;
       position: absolute;
@@ -328,6 +328,12 @@ body {
    margin: 210px 0px 0px 0px;
 }
 .etaps {
+   .schema{
+      svg{
+         max-width: 100%;
+      }
+      margin: 100px 0px 0px 0px;
+   }
    h2 {
       margin: 0px 0px 34px 0px;
       color: rgb(255, 255, 255);
