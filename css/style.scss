@@ -152,22 +152,23 @@ body {
    -webkit-mask-composite: xor;
    mask-composite: exclude;
 }
+.button-all {
+   cursor: pointer;
+   color: rgb(255, 255, 255);
+   font-size: 20px;
+   font-weight: 400;
+   line-height: 25px;
+   letter-spacing: 0;
+   text-align: center;
+   width: fit-content;
+   margin: 85px auto 0px auto;
+   display: flex;
+   align-items: center;
+   gap: 40px;
+   padding: 14px 70px;
+}
 .services {
-   .button {
-      cursor: pointer;
-      color: rgb(255, 255, 255);
-      font-size: 20px;
-      font-weight: 400;
-      line-height: 25px;
-      letter-spacing: 0;
-      text-align: center;
-      width: fit-content;
-      margin: 85px auto 0px auto;
-      display: flex;
-      align-items: center;
-      gap: 40px;
-      padding: 20px 70px;
-   }
+   
    .item05 {
       h4 {
          margin: 50px 0px 0px 0px;

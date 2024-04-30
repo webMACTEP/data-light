@@ -213,10 +213,7 @@ body {
   mask-composite: exclude;
 }
 
-.services {
-  margin: 100px 0px 0px 0px;
-}
-.services .button {
+.button-all {
   cursor: pointer;
   color: rgb(255, 255, 255);
   font-size: 20px;
@@ -230,7 +227,11 @@ body {
   display: flex;
   align-items: center;
   gap: 40px;
-  padding: 20px 70px;
+  padding: 14px 70px;
+}
+
+.services {
+  margin: 100px 0px 0px 0px;
 }
 .services .item05 {
   display: flex;
