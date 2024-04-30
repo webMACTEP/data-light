@@ -317,7 +317,19 @@ body {
 }
 
 .advantages {
+  position: relative;
   margin: 210px 0px 0px 0px;
+}
+.advantages .light {
+  width: 60%;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.advantages .light img {
+  position: absolute;
+  top: -600px;
+  right: 0;
 }
 .advantages .butt {
   margin: 44px 0px 0px 0px;
@@ -370,5 +382,18 @@ body {
   font-size: 48px;
   font-weight: 800;
   line-height: 120%;
+  text-align: left;
+}
+
+.etaps {
+  margin: 200px 0px 0px 0px;
+}
+.etaps h2 {
+  margin: 0px 0px 34px 0px;
+  color: rgb(255, 255, 255);
+  font-size: 48px;
+  font-weight: 800;
+  line-height: 120%;
+  letter-spacing: 0%;
   text-align: left;
 }/*# sourceMappingURL=style.css.map */
