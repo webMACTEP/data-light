@@ -189,6 +189,12 @@ body {
   z-index: -1;
 }
 
+.bg-right {
+  z-index: -1;
+  position: absolute;
+  right: 0;
+}
+
 .border-grad {
   --b: 2px; /* border width*/
   --r: 30px; /* the radius */
@@ -408,7 +414,11 @@ body {
 }
 
 .cases {
+  position: relative;
   margin: 200px 0px 0px 0px;
+}
+.cases .bg-right {
+  top: -900px;
 }
 .cases .button {
   display: flex;
@@ -485,7 +495,11 @@ body {
 }
 
 .materials {
+  position: relative;
   margin: 200px 0px 0px 0px;
+}
+.materials .bg-right {
+  top: -600px;
 }
 .materials .left {
   color: rgb(255, 255, 255);
@@ -543,13 +557,14 @@ body {
 }
 .materials h3 {
   color: rgb(177, 254, 51);
-  font-size: 24px;
+  font-size: 22px;
   font-weight: 600;
   line-height: 120%;
   text-align: left;
   margin: 0px 0px 40px 0px;
 }
 .materials .info {
+  min-height: 400px;
   display: flex;
   flex-direction: column;
   padding: 44px 25px;
@@ -579,7 +594,7 @@ body {
   min-width: 100%;
 }
 .materials .item {
-  max-width: 32%;
+  max-width: 475px;
   display: flex;
   flex-direction: column;
   border-radius: 32px;
