@@ -107,6 +107,12 @@ body {
   background: linear-gradient(87.78deg, rgb(74, 255, 0) -105.547%, rgb(227, 251, 30) 99.839%);
 }
 
+.bg-right {
+  z-index: -1;
+  position: absolute;
+  right: 0;
+}
+
 .header {
   padding: 20px 0px;
 }
@@ -184,15 +190,14 @@ body {
   width: 80%;
   overflow: hidden;
   position: absolute;
-  top: -380px;
+  top: 0px;
   right: 0px;
   z-index: -1;
 }
-
-.bg-right {
-  z-index: -1;
-  position: absolute;
-  right: 0;
+.intro .inrto-img img {
+  max-width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .border-grad {

@@ -42,6 +42,12 @@ body {
 
    background: linear-gradient(87.78deg, rgb(74, 255, 0) -105.547%, rgb(227, 251, 30) 99.839%);
 }
+.bg-right {
+   z-index: -1;
+   position: absolute;
+   right: 0;
+}
+
 .header {
    .connect {
       display: flex;
@@ -61,7 +67,6 @@ body {
    }
    padding: 20px 0px;
 }
-
 .intro {
    .brands {
       margin: 150px 0px 0px 0px;
@@ -116,18 +121,17 @@ body {
       padding: 12px 55px;
    }
    .inrto-img {
+      img{
+         max-width: 100%;
+         object-fit: cover;
+      }
       width: 80%;
       overflow: hidden;
       position: absolute;
-      top: -380px;
+      top: 0px;
       right: 0px;
       z-index: -1;
    }
-}
-.bg-right {
-   z-index: -1;
-   position: absolute;
-   right: 0;
 }
 .border-grad {
    --b: 2px; /* border width*/
