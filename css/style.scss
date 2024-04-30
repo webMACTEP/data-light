@@ -121,7 +121,7 @@ body {
       padding: 12px 55px;
    }
    .inrto-img {
-      img{
+      img {
          max-width: 100%;
          object-fit: cover;
       }
@@ -549,4 +549,146 @@ body {
       text-align: left;
    }
    margin: 200px 0px 0px 0px;
+}
+.contact-form {
+   form {
+      //max-width: 100%;
+      width: 50%;
+   
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+   }
+   textarea {
+      min-width: 100%;
+   }
+   textarea,
+   select,
+   input {
+      color: #fff;
+      //font-family: "PP Neue Machina";
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 200;
+      line-height: normal;
+      border-radius: 16px;
+      background: #292929;
+      padding: 12px 24px;
+      //max-width: 100%;
+      //max-width: 200px;
+   }
+   .kim {
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 200;
+      line-height: normal;
+      width: fit-content;
+      margin: 80px 0px 0px 0px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      padding: 6px 35px;
+
+      border-radius: 69px;
+      background: #fff;
+   }
+   .subtitle {
+      margin: 16px 0px 0px 0px;
+      color: #172224;
+      //font-family: "PP Neue Machina";
+      font-size: 24px;
+      font-style: normal;
+      font-weight: 200;
+      line-height: 120%; /* 28.8px */
+   }
+   h2 {
+      color: #172224;
+      //font-family: "PP Neue Machina";
+      font-size: 56px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 120%; /* 67.2px */
+   }
+   .confirm {
+      max-width: 345px;
+      color: rgba(23, 34, 36, 0.4);
+      text-align: right;
+      //font-family: "PP Neue Machina";
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 200;
+      line-height: normal;
+   }
+   .row {
+
+      &.r04 {
+         align-items: flex-start;
+         
+         button {
+            color: #000;
+            text-align: center;
+            //font-family: "PP Neue Machina";
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 300;
+            line-height: normal;
+            display: flex;
+            align-items: center;
+            gap: 40px;
+            padding: 12px 20px;
+            border-radius: 30px;
+            border: 1px solid #172224;
+            background: #fff;
+         }
+      }
+      &.r03 {
+         flex-grow: 1;
+         display: block;
+         span {
+            display: block;
+         }
+      }
+      &.r02 {
+         select,
+         input {
+            width: 329px;
+         }
+      }
+      &.r01 {
+         input {
+            max-width: 217px;
+         }
+      }
+      display: flex;
+      justify-content: space-between;
+      gap: 6px;
+   }
+   .info {
+      z-index: 3;
+   }
+   .form {
+      width: 50%;
+   }
+   .blok {
+      padding: 40px 36px 40px 90px;
+      display: flex;
+      justify-content: space-between;
+
+      min-height: 490px;
+      position: relative;
+      margin: 250px 0px 0px 0px;
+      border-radius: 27px;
+      background: linear-gradient(90deg, #d4ff00 -21.2%, #27f7f8 114.64%);
+   }
+   .img {
+      img {
+         max-height: 485px;
+         object-fit: cover;
+      }
+      z-index: 1;
+      position: absolute;
+      left: 350px;
+      bottom: 0;
+   }
+   padding: 0px 0px 240px 0px;
 }
