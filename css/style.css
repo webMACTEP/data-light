@@ -314,4 +314,61 @@ body {
   line-height: 120%;
   letter-spacing: 0%;
   text-align: left;
+}
+
+.advantages {
+  margin: 210px 0px 0px 0px;
+}
+.advantages .butt {
+  margin: 44px 0px 0px 0px;
+  padding: 12px 55px;
+}
+.advantages .item {
+  min-width: 370px;
+}
+.advantages .item-b {
+  padding: 40px 30px;
+  border-radius: 32px;
+  background: rgb(41, 41, 41);
+  min-width: 356px;
+  position: relative;
+  min-height: 240px;
+}
+.advantages .item-b svg {
+  position: absolute;
+  right: 30px;
+  bottom: 30px;
+}
+.advantages h3 {
+  font-family: "Mulish", sans-serif;
+  color: rgb(200, 200, 200);
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 120%;
+  text-align: left;
+}
+.advantages span {
+  display: block;
+  margin: 10px 0px 0px 0px;
+  color: rgb(255, 255, 255);
+  font-family: "Mulish", sans-serif;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 120%;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.advantages .row {
+  margin: 15px 0px 0px 0px;
+  display: flex;
+  gap: 5px;
+  justify-content: space-between;
+}
+.advantages h2 {
+  margin: 0px 0px 100px 0px;
+  color: rgb(255, 255, 255);
+  font-size: 48px;
+  font-weight: 800;
+  line-height: 120%;
+  text-align: left;
 }/*# sourceMappingURL=style.css.map */
